@@ -1,0 +1,98 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Totally Alex's doors item hub", "Ocean")
+
+local Tab = Window:NewTab("The Items")
+
+local Section = Tab:NewSection("Items")
+
+Section:NewLabel("my item hub yes yes")
+
+Section:NewButton("Ice cream", "gives ice cream in doors", function()
+    local Item = game:GetObjects("rbxassetid://110887863")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Torch (gives light)", "Works, kinda useful", function()
+    local Item = game:GetObjects("rbxassetid://3499523244")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Paint Bucket", "Cool i guess", function()
+    local Item = game:GetObjects("rbxassetid://82578488")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Balloon (read info)", "Works if you use a jump script for doors", function()
+    local Item = game:GetObjects("rbxassetid://844258278")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Burger XD", "Crabby Patty", function()
+    local Item = game:GetObjects("rbxassetid://100522628")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Sword lol", "Omg plz dont kill me!!!!", function()
+    local Item = game:GetObjects("rbxassetid://47433")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Guitar", "Pretty cool", function()
+    local Item = game:GetObjects("rbxassetid://5482735490")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Cake", "HAPPY BIRTHDAY TO YOU", function()
+    local Item = game:GetObjects("rbxassetid://1523953726")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Stop sign (READ INFO)", "VERY BUGGY, MIGHT FLING YOU OUT OF THE MAP", function()
+    local Item = game:GetObjects("rbxassetid://1305561850")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Orange (the fruit)", "They are yummy ngl", function()
+    local Item = game:GetObjects("rbxassetid://6810426248")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("TNT bomb", "MOM ITS GONNA EXPLODE!!!!", function()
+    local Item = game:GetObjects("rbxassetid://1359343085")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Milk, DAD!!!", "omg funny dad joke real real", function()
+    local Item = game:GetObjects("rbxassetid://8466449126")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Rubber ducky", "I have it in my bath", function()
+    local Item = game:GetObjects("rbxassetid://4950048921")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Sprite can", "Drink that bad boy", function()
+    local Item = game:GetObjects("rbxassetid://6772727183")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("2007 Cereal", "Old cereal XD", function()
+    local Item = game:GetObjects("rbxassetid://684673598")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Sun Plushie", "Toy for kids", function()
+    local Item = game:GetObjects("rbxassetid://10411567671")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Big gun (READ INFO)", "KINDA BROKEN", function()
+    local Item = game:GetObjects("rbxassetid://6498687268")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Section:NewButton("Floor 2 crucifix", "PUT THEM IN DA CHAINS", function()
+    local Item = game:GetObjects("rbxassetid://11712848097")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+end)
